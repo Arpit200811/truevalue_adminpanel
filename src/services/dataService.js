@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "https://truevalue-backend-p75j.onrender.com";
+const API_URL = "https://truevalue-backend-p75j.onrender.com/api";
 
 // Helper to get auth header
 const getAuthHeader = () => {
