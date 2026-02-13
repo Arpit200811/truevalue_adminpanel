@@ -1,0 +1,73 @@
+/* Font */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Layout */
+.layout-wrapper {
+  min-height: 100vh;
+  background: #f5f7ff;
+}
+
+.sidebar {
+  width: 230px;
+  min-height: 100vh;
+  border-right: 1px solid #eee;
+  padding: 20px;
+}
+
+.sidebar .brand h4 {
+  color: #5a4bff;
+  font-weight: bold;
+}
+
+/* Sidebar Menu */
+.sidebar-menu li {
+  margin-bottom: 12px;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  transition: 0.3s;
+  color: #444;
+  text-decoration: none;
+}
+
+.sidebar-link.active,
+.sidebar-link:hover {
+  background-color: #5a4bff;
+  color: white !important;
+}
+
+/* Topbar */
+.topbar {
+  background-color: white;
+  border-bottom: 1px solid #eee;
+}
+
+.search-input {
+  width: 300px;
+}
+
+.notif-badge {
+  background: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+  right: -8px;
+}
+
+/* Card */
+.card-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
